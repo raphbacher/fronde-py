@@ -83,7 +83,7 @@ def middle(L):
     """
     n = len(L)
     m = n - 1
-    return (L[n/2] + L[m/2]) / 2.0
+    return (L[int(n/2)] + L[int(m/2)]) / 2.0
 
 def percent(L,q):
     """

@@ -10,4 +10,4 @@ x[:100] = 10
 # get robust mean and variance
 med,var = fine_clipping(x)
 
-print med,var
+print(med,var)
