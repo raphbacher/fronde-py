@@ -8,7 +8,7 @@ from scipy.stats import norm
 import numpy as np
 
 
-def fine_clipping(x, niter = 20, fact_value = 0.9,sym=True):
+def fronde(x, niter = 20, fact_value = 0.9,sym=True):
     """
     Robust estimation of median and variance of data
     Parameters

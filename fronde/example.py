@@ -1,4 +1,4 @@
-from fronde import fine_clipping
+from fronde import fronde
 import numpy as np
     
 # create null samples

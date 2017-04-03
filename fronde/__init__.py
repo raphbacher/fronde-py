@@ -1,1 +1,1 @@
-from fronde import fine_clipping
+from fronde import fronde
