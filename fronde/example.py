@@ -8,6 +8,6 @@ x=np.random.normal(loc=1,scale=0.5,size=1000)
 x[:100] = 10
 
 # get robust mean and variance
-med,var = fine_clipping(x)
+med,var = fronde(x)
 
 print(med,var)
