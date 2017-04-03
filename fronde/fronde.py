@@ -69,12 +69,7 @@ def fine_clipping(x, niter = 20, fact_value = 0.9,sym=True):
                 medclip=oldmedclip
         i+=1
 
-    #Refinement of sigma estimation using only uncontaminated lower values.
-    xclip2 = x_sorted[np.where( ((x_sorted-medclip) <0) & ((x_sorted-medclip) > -3*stdclip)) ]
-    correctionTrunc= np.sqrt( 1. +(-3.*2.* norm.pdf(3.)) / (2.*norm.cdf(3.) -1.) )
-    stdclip2 = np.sqrt( np.mean( (xclip2-medclip)**2)) / correctionTrunc
-    
-    return medclip,stdclip2
+    return medclip,stdclip
 
 def middle(L):
     """
