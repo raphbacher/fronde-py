@@ -7,7 +7,7 @@ To install
 
 To get robust variance and mean estimators of null distribution of a data vector x
 
-    from fronde import fine_clipping
+    from fronde import fronde
     import numpy as np
     
     # create null samples
@@ -17,4 +17,4 @@ To get robust variance and mean estimators of null distribution of a data vector
     x[:100] = 10
     
     # get robust mean and variance
-    med,var = fine_clipping(x)
+    med,var = fronde(x)
