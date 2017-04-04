@@ -18,3 +18,7 @@ To get robust variance and mean estimators of null distribution of a data vector
     
     # get robust mean and variance
     med,var = fronde(x)
+
+You can also try pregenerated data with example.py
+
+    python example.py
