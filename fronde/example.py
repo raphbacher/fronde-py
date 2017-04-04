@@ -3,7 +3,7 @@ import numpy as np
 import scipy.io as sio
 
 #load data example
-Lmat = sio.loadmat('L.mat’)
+Lmat = sio.loadmat('L.mat')
 L = Lmat['L']
 
 # get robust mean and variance
